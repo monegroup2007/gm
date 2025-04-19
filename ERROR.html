@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Error</title>
+  <link rel="icon" href="logo.png" >
+  <style>
+    body {
+      font-family: "Press Start 2P", sans-serif;
+      background-color: #1a1a1a;
+      color: #f9e3a3;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .error-box {
+      border: 4px solid #c54c4c;
+      padding: 20px;
+      background: #8b1c1c;
+      box-shadow: 4px 4px 0px #000;
+      max-width: 400px;
+    }
+
+    .error-box h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .error-box p {
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+
+    .retry-button {
+      background: #c54c4c;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 12px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 4px 4px 0px #000;
+    }
+
+    .retry-button:hover {
+      background: #f9e3a3;
+      color: #8b1c1c;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="error-box">
+    <h1>CONNECTION LOST</h1>
+    <p>Oops! Something went wrong.<br>Please check your internet connection.</p>
+    <p style="font-family:Montserrat;">Ối! Có điều gì đó không đúng<br> Bạn hãy vui lòng thử lại sau!.</p>
+    <button class="retry-button" onclick="window.location.href='index.html'">GO BACK</button>
+  </div>
+</body>
+</html>
